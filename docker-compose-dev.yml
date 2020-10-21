@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  master_players_dump:
+    image: master_players_dump_dev
+    build:
+      target: master_players_dump_env

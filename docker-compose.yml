@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  master_players_dump:
+    image: master_players_dump
+    build:
+      context: .
+      target: master_players_dump_pro
+    volumes:
+    - type: bind
+      source: ./dump
+      target: /dump
