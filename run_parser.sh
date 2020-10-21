@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 while :
 do
   python run_parser.py
-  sleep 3h
+  sleep 24h
 done

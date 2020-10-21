@@ -9,4 +9,4 @@ FROM master_players_dump_env as master_players_dump_pro
 COPY run_parser.py .
 COPY run_parser.sh .
 
-CMD ./run_parser.sh
+CMD ["sh", "run_parser.sh"]
